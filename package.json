@@ -1,15 +1,18 @@
 {
   "name": "@destill/svg",
-  "version": "0.3.1",
+  "version": "0.0.0",
   "description": "Icon automation workflow with Figma",
-  "main": "dist/juuust-react-icon.cjs.js",
-  "module": "dist/juuust-react-icon.esm.js",
+  "main": "dist/destill-react-icon.cjs.js",
+  "module": "dist/destill-react-icon.esm.js",
   "typings": "dist/icons.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/leadream/juuust-react-icon.git",
-  "author": "leadream",
+  "publishConfig": {
+    "@destill:registry": "https://npm.pkg.github.com"
+  },
+  "repository": "https://github.com/Enlighten-Fund/destill-svg.git",
+  "author": "destill",
   "keywords": [
     "react",
     "icons",
