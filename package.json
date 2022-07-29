@@ -1,5 +1,5 @@
 {
-  "name": "juuust-react-icon",
+  "name": "@destill/svg",
   "version": "0.2.5",
   "description": "Icon automation workflow with Figma",
   "main": "dist/juuust-react-icon.cjs.js",
